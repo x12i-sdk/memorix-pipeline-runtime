@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/memorix-pipeline-runtime",
+  "packageVersion": "3.1.1",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/memorix-pipeline-runtime",
+  "usageRepository": "https://github.com/x12i-sdk/memorix-pipeline-runtime",
+  "sourceRepository": "https://github.com/x12i/memorix-mono-repo",
+  "sourceCommit": "b87d277ff9c40cedc18d5f4775642baf8a2d3df1",
+  "sourcePackageDirectory": "memorix-pipeline-runtime",
+  "example": {
+    "title": "Store a scoped artifact and enforce a local execution lease",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T15:04:57.671574+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "9f1fc6bd5e71b2e31f6a649a19616552846af7a3bf9387c92e8b33bbadf47848",
+    "manifestSha256": "b84a6df8b48989a135eed3bbd2078d9d16ce8e695000bae4bb53a44c95125ae1"
+  },
+  "validationFiles": {
+    "src/index.mjs": "9f1fc6bd5e71b2e31f6a649a19616552846af7a3bf9387c92e8b33bbadf47848"
+  }
+}

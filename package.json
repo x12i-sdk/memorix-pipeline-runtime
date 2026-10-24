@@ -1,0 +1,22 @@
+{
+  "name": "memorix-pipeline-runtime-usage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Usage example for @x12i/memorix-pipeline-runtime: store a scoped artifact and enforce a local execution lease.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "check": "node --check src/index.mjs"
+  },
+  "dependencies": {
+    "@x12i/memorix-pipeline-runtime": "3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x12i-sdk/memorix-pipeline-runtime.git"
+  },
+  "homepage": "https://www.npmjs.com/package/@x12i/memorix-pipeline-runtime"
+}
